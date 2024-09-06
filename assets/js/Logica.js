@@ -12,7 +12,7 @@ function typewriterEffect() {
         if (i === text.length) {
           clearInterval(typingInterval);
         }
-      }, 50); // Adjust the speed here (lower value = faster typing)
+      }, 50); // ...Adjust the speed here (lower value = faster typing)
     });
   }
   
